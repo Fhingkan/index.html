@@ -13,7 +13,6 @@ a{
     padding:5px 0;
     background-color: navy;
 }
-
 .medsos ul li {
     display: inline-block;
     color: #fff;
@@ -124,7 +123,6 @@ section h3{
 }
 
 .box {
-    border: 1px solid;
     color : navy;
 }
 .box :after {
@@ -160,29 +158,6 @@ section h3{
     margin: 20px 0;
 }
 
-.bg-loader {
-    background-color: #eee;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 9999;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.bg-loader .loader {
-    width: 100px;
-    height: 100px;
-    border:3px solid #fff;
-    border-radius: 50%;
-    border-top-color: navy;
-    border-right-color: navy;
-    border-bottom-color: navy;
-    animation: puterin .8s linear infinite;
-}
 .label{
     background-color :navy;
     color: #fff;
